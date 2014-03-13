@@ -1,0 +1,182 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Tabs</title>
+    
+    <!-- IE 8 or below -->   
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="css/IEfoundation.css" />
+<![endif]-->
+
+
+      <link rel="stylesheet" href="custom.css" />
+      <link rel="stylesheet" href="css/tabs.css"/>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/modernizr.js"></script>
+   
+  
+  </head>
+  <body>
+  
+
+<header>
+   <div class="row">
+   <h1>Tabs</h1>
+   <p>Different Tab Options</p>
+   <p>For more info on how to configure <a href="http://foundation.zurb.com/docs/components/tabs.html" target="_blank">http://foundation.zurb.com/docs/components/tabs.html</a></p>
+   
+   </div>
+</header> 
+
+ <section>
+</section> 
+  
+  
+  
+  <div class="row centered">
+   <h3>Basic Tabs</h3>
+   <p>Full width - set into the grid to make full screen</p>
+   
+   </div> 
+  
+    
+<div class="row">
+      <div class="grid-12 columns">
+      
+      <dl class="tabs" data-tab>
+  <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
+  <dd><a href="#panel2-2">Tab 2</a></dd>
+  <dd><a href="#panel2-3">Tab 3</a></dd>
+  <dd><a href="#panel2-4">Tab 4</a></dd>
+</dl>
+<div class="tabs-content">
+  <div class="content active" id="panel2-1">
+    <p>First panel content goes here...</p>
+  </div>
+  <div class="content" id="panel2-2">
+    <p>Second panel content goes here...</p>
+  </div>
+  <div class="content" id="panel2-3">
+    <p>Third panel content goes here...</p>
+  </div>
+  <div class="content" id="panel2-4">
+    <p>Fourth panel content goes here...</p>
+  </div>
+</div>
+     
+     
+</div>
+</div><!--row-->
+    
+
+   
+   
+<div class="row centered">
+   <h3>Full Width Vertical Tabs</h3>
+   <p>Full width - set the row to <strong>.rowWide</strong> to make full screen</p>
+   
+   </div> 
+    
+    
+    
+    
+<div class="rowWide">
+     
+      <div class="grid-12 column nopad">
+      
+      <dl class="tabs vertical" data-tab>
+  <dd class="active"><a href="#panel1a">Tab 1</a></dd>
+  <dd><a href="#panel2a">Tab 2</a></dd>
+  <dd><a href="#panel3a">Tab 3</a></dd>
+  <dd><a href="#panel4a">Tab 4</a></dd>
+</dl>
+<div class="tabs-content vertical">
+  <div class="content active" id="panel1a">
+    <p>Panel 1 content goes here.</p>
+  </div>
+  <div class="content" id="panel2a">
+    <p>Panel 2 content goes here.</p>
+  </div>
+  <div class="content" id="panel3a">
+    <p>Panel 3 content goes here.</p>
+  </div>
+  <div class="content" id="panel4a">
+    <p>Panel 4 content goes here.</p>
+  </div>
+</div>
+      
+
+</div>
+</div><!--row-->
+
+<div class="row centered">
+   <h3>Vertical Tabs</h3>
+   <p>Full width - set the row to <strong>.rowWide</strong> to make full screen</p>
+   
+   </div> 
+
+
+<div class="row">
+     
+      <div class="grid-12 column nopad">
+      
+      <dl class="tabs vertical" data-tab>
+  <dd class="active"><a href="#panel1a">Tab 1</a></dd>
+  <dd><a href="#panel2a">Tab 2</a></dd>
+  <dd><a href="#panel3a">Tab 3</a></dd>
+  <dd><a href="#panel4a">Tab 4</a></dd>
+</dl>
+<div class="tabs-content vertical">
+  <div class="content active" id="panel1a">
+    <p>Panel 1 content goes here.</p>
+  </div>
+  <div class="content" id="panel2a">
+    <p>Panel 2 content goes here.</p>
+  </div>
+  <div class="content" id="panel3a">
+    <p>Panel 3 content goes here.</p>
+  </div>
+  <div class="content" id="panel4a">
+    <p>Panel 4 content goes here.</p>
+  </div>
+</div>
+      
+
+</div>
+</div><!--row-->
+
+
+
+
+
+
+
+
+
+    
+    <script src="js/jquery.js"></script>
+    <!--<script src="js/foundation.min.js"></script>-->
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.tab.js"></script>
+    <script src="js/foundation/foundation.interchange.js"></script>
+    
+    
+    
+<script>
+  $(document).foundation({
+    tab: {
+      callback : function (tab) {
+        console.log(tab);
+      }
+    }
+  });
+</script>
+    
+
+    
+   
+    
+  </body>
+</html>

@@ -48,12 +48,14 @@ select {width: 100%; }
   
 
 .row {width: 100%; margin-left: auto; margin-right: auto; margin-top: 0;margin-bottom: 0;*zoom: 1; }
+.rowWide {width: 100%; margin-left: auto; margin-right: auto; margin-top: 0;margin-bottom: 0;*zoom: 1; }
+
 .row:before, .row:after { content: " ";display: table; }
 .row:after {clear: both; }
 .row.collapse > .column,
 .row.collapse > .columns {position: relative;padding-left: 0;padding-right: 0;float: left; }
 .row.collapse .row {margin-left: 0; margin-right: 0; }
-.row .row {
+.row .row .rowWide {
     width: auto;
     margin-left: -0.9375em;
     margin-right: -0.9375em;
@@ -67,7 +69,7 @@ select {width: 100%; }
 .row .row.collapse:before, .row .row.collapse:after { content: " ";display: table; }
 .row .row.collapse:after {clear: both; }
 .column,
-.columns {position: relative; padding-left: 0.9375em; padding-right: 0.9375em;width: 100%;float: left; }
+.columns {position: relative; padding-left: 0.9375em; padding-right: 0.9375em; width: 100%;float: left; }
   
 
 @media only screen {
