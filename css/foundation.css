@@ -49,6 +49,7 @@ select {width: 100%; }
 
 .row {width: 100%; margin-left: auto; margin-right: auto; margin-top: 0;margin-bottom: 0;*zoom: 1; }
 .rowWide {width: 100%; margin-left: auto; margin-right: auto; margin-top: 0;margin-bottom: 0;*zoom: 1; }
+.rowNarrow {width: 100%; margin-left: auto; margin-right: auto; margin-top: 0;margin-bottom: 0;*zoom: 1; }
 
 .row:before, .row:after { content: " ";display: table; }
 .row:after {clear: both; }

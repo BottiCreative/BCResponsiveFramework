@@ -1,0 +1,125 @@
+
+body {background: white;color: #222222;padding: 0;margin: 0;font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+font-weight: normal;font-style: normal;line-height: 1;cursor: default; }
+  
+/* Default Link Styles */
+a {color: #2ba6cb;text-decoration: none;line-height: inherit; }
+a:hover, a:focus {color: #2795b6; }
+a img {border: none; }
+/* Default paragraph styles */
+p {font-family: inherit;font-weight: normal; line-height: 1.6;margin-bottom: 1.25rem;text-rendering: optimizeLegibility; }
+p aside {font-size: 0.875rem;line-height: 1.35;font-style: italic; }
+
+/* Default header styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  font-style: normal;
+  color: #222222;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4; }
+  
+/*CUSTOM CODE HERE*/
+  
+/*change this to increase page width do not remove---*/
+.row{max-width: 62.5em;}
+.rowNarrow{max-width: 800px;}
+.rowWide{max-width: 90%; background: #ccc;}
+  
+header{padding: 20px 0; }
+img.callSide{ margin: 20px 0 0 0;}
+p.smallText{font-size: 11px;}
+
+.fullWidth{float:left; width: 100%;}
+
+.largeButton{width: 300px; background-color:#666; text-align:left; padding-top:20px; padding-bottom: 20px; padding-left: 20px; margin-bottom: 100px; margin-top: 20px; font-style: Bold; font-size: 25px}
+.smallButton{width:100%; background-color:#666; text-align:center; padding-top:20px; padding-bottom: 20px; margin-top: 20px; font-style: Bold; font-size: 20px}
+
+h3{font-size: 35px; font-style: bold; padding-top: 5px; margin-bottom: 20px; color: #2dbdd3;}
+p.facts{ padding-top: 10px; padding-bottom: 10px; background: #ccc; margin-top: 50px; display: block;}
+
+.rounded{border-radius: 50%;} 
+
+.rowNarrow p{ padding: 0 50px 0 0;}
+
+.textRight p{padding: 0 0px 0 0!important;}
+
+.blueArrow{ width: 100%; float: left; height: 40px; background: url(../images/Template-1/triangle-blue.png) no-repeat top center;}
+
+/*Section 1*/
+.sect1{ background: url(../images/Template-1/polar_bear-alaska.jpg) no-repeat center top; background-size: cover;}
+img.Logo{margin-bottom: 100px;}
+
+/*Section 2*/
+.sect2{background: #2dbdd3; padding: 30px 0;}
+.sect2 h3{color: #FFF;}
+.sect2 p{color: #FFF;}
+.sectImage{ padding-top: 50px;}
+
+/*Section 3*/
+.sect3{ }
+
+/*Section 4*/
+.sect4{padding-bottom: 30px; padding-top: 30px; background: #2dbdd3; margin-top: 50px;}
+.sect4 h3{color: #FFF;}
+.sect4 p{color: #FFF;}
+
+/*Section 5*/
+.sect5{ }
+.sect5Image{margin-top: 50px;}
+.sect5 h2{margin-top:20px;}
+.sect5 h3{margin-top:50px;}
+.sect5 p{padding-top:20px;}
+
+/*Section 6*/
+.sect6{padding-bottom: 70px; padding-top: 30px; background: #2dbdd3; margin-top: 50px;}
+.sect6 h3{color: #FFF;}
+.sect6 p{color: #FFF;}
+
+
+/*Video Styles*/
+.videoBox{ padding: 15px; background: #ccc; -webkit-box-shadow: 0 1px 1px 2px rgba(0,0,0,.2);
+box-shadow: 0 1px 1px 2px rgba(0,0,0,.2); margin: 0 0 30px 0; min-height: 400px;}
+.videoBoxBorder{ border: solid 1px #ccc;}
+.videoBoxBorderShadow{ border: solid 1px #ccc;}
+
+
+/*Testimonial Styles*/
+.testimonialWrapper{ padding: 0 0 20px 0; background:  url(../images/test-tick.png) no-repeat bottom right; float: left;  }
+.testimonial{ width: 100%; height: auto; background: #ccc; padding: 30px 20px; float: left; }
+  
+	
+/*Benefit Styles Styles*/
+.benefitList{ width: 100%; padding: 15px 0; margin: 30px 0; float: left; height: auto; border-top: solid 1px #ccc; border-bottom: solid 1px #ccc;}
+.benefitList ul{ list-style: none; padding: 0; float: left; margin: 0; }
+.benefitList li{ padding: 5px 0 5px 40px; background: url(../images/bullet-tick-green.png) no-repeat center left; }	
+
+
+/*Footer*/ 
+footer{padding-top: 30px; margin: 30px 0}
+.footerMiddle{border-top: solid 1px #ccc; padding-top: 20px;}
+
+
+img.hideFull{display: none;} 		
+	
+
+@media only screen and (max-width: 400px) {
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4; }
+	
+	.testImage{ text-align: center; padding-bottom: 20px;}
+	
+	.testimonial{ text-align: center; }
+	
+	.benefitList li{display: block; width: 50%; float: left;}
+	
+	img.showFull{ display: none;}
+	img.hideFull{ display: block!important;}
+	
+	.sect1{ background: none;}
+	
+	
+	
+	
+	}
