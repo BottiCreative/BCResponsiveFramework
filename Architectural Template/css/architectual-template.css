@@ -23,25 +23,48 @@ h1, h2, h3, h4, h5, h6 {
 /*CUSTOM CODE HERE*/
   
 /*change this to increase page width do not remove---*/
-.row{max-width: 62.5em;}
-.rowNarrow{max-width: 800px;}
-.rowWide{max-width: 90%; background: #ccc;}
+.row{ max-width: 62.5em;}
+.rowNarrow{ max-width: 800px;}
+.rowWide{ max-width: 90%; background: #ccc;}
   
-header{padding: 20px 0; }
+header{ padding: 20px 0; }
 img.callSide{ margin: 20px 0 0 0;}
-p.smallText{font-size: 11px;}
+p.smallText{ font-size: 11px;}
 
-.fullWidth{float:left; width: 100%;}
+.fullWidth{ float:left; width: 100%;}
 
 /*Header*/
-.header{ width: 100%; padding-top: 25px; padding-bottom: 25px; background: #46ade8;}
-h1{text-align: right; font-size: 25px; color: #353535; padding: 0;}
-p.header{ text-align: right; font-size: 25px; color:#FFF; padding: 0; font-style: normal;}
+.headerImg{ background:url(../images/background-header.jpg) no-repeat center top; background-size: cover;}
 
+.topHeader{ width: 100%; padding-top: 25px; padding-bottom: 25px; background: #46ade8; margin-bottom: 450px;}
+.headerTitle{ text-align: right; font-size: 25px; color: #353535;}
+.contactText{ text-align: right; font-size: 20px; color:#FFF; font-style: normal;}
+.contactImg{ margin-right: 10px;}
+
+/*SignUp*/
+.signUpContainer{ float:right; height:680px;}
+
+/*bottomHeader*/
+.bottomHeader{ width: 100%; padding-top: 25px; padding-bottom: 25px; background: #46ade8;}
+h3{ text-align: left; font-size: 25px; color: #FFF;}
+h4{ text-align: left; font-size: 18px; color: #353535;}
+.numberText{ text-align: left; font-size: 18px; color: #FFF;}
+.bottomHeader h4 span{color:#FFF;}
+
+/*mainInfo*/
+.mainInfo{ width: 100%; padding-top: 25px; padding-bottom: 25px; background:url(../images/background-maininfo.jpg) no-repeat right bottom; background-size:contain; height: 600px; margin-top: 40px; margin-bottom: 40px;}
+h1{ text-align: left; font-size: 50px; color: #46ade8; }
+h2{ text-align: left; font-size: 50px; color: #213f50; }
+.margRight{margin-right: 20px; float:left;}
+.margLeft{margin-left: 20px; float: right;}
+
+.testimonialWrapper{ padding: 20px; float: left; margin-bottom: 20px; margin-top: 20px; border: 5px #46ade8 solid;}
+.testImg{ float: left; margin-right: 20px;}
+.testText{text-align: left; font-size: 18px; color: #353535;} 
 
 /*Footer*/ 
-.footer{width: 100%; padding-top: 50px; padding-bottom: 100px; background: #CCC;}
-p.footer{text-align: center;}
+.footer{ width: 100%; padding-top: 50px; padding-bottom: 100px; background: #213f50;}
+p.footer{ text-align: center;}
 
 
 
