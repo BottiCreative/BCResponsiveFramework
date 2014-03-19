@@ -1,5 +1,5 @@
 
-body {background: white;color: #222222;padding: 0;margin: 0;font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+body {background: white;color: #222222;padding: 0;margin: 0; font-family: 'Alegreya Sans', sans-serif;
 font-weight: normal;font-style: normal;line-height: 1;cursor: default; }
   
 /* Default Link Styles */
@@ -36,35 +36,59 @@ p.smallText{ font-size: 11px;}
 /*Header*/
 .headerImg{ background:url(../images/background-header.jpg) no-repeat center top; background-size: cover;}
 
-.topHeader{ width: 100%; padding-top: 25px; padding-bottom: 25px; background: #46ade8; margin-bottom: 450px;}
-.headerTitle{ text-align: right; font-size: 25px; color: #353535;}
-.contactText{ text-align: right; font-size: 20px; color:#FFF; font-style: normal;}
+.topHeader{ width: 100%; padding-top: 25px; padding-bottom: 25px; background: #46ade8;}
+.topHeader h1{ text-align: right; font-size: 25px; color: #353535;}
+.topHeader p{ text-align: right; font-size: 20px; color:#FFF; font-style: normal;}
 .contactImg{ margin-right: 10px;}
 
 /*SignUp*/
 .signUpContainer{ float:right; height:680px;}
 
+/*Form*/
+.arrowUp{background:url(../images/arrows.png) no-repeat center top; height: 19px; width: 100%; margin: 0 0 30px 0;}
+.arrowDown{background:url(../images/arrows.png) no-repeat center -25px; height: 19px; width: 100%; margin: 30px 0 0 0;}
+
 /*bottomHeader*/
-.bottomHeader{ width: 100%; padding-top: 25px; padding-bottom: 25px; background: #46ade8;}
-h3{ text-align: left; font-size: 25px; color: #FFF;}
-h4{ text-align: left; font-size: 18px; color: #353535;}
-.numberText{ text-align: left; font-size: 18px; color: #FFF;}
-.bottomHeader h4 span{color:#FFF;}
+.bottomHeader{ width: 100%; background: #46ade8;}
+.bottomHeader h1{ text-align: left; font-size: 40px; color: #FFF; font-style: italic; line-height: 85px;}
+.bottomHeader p{ text-align: left; font-size: 18px; color: #353535; font-size: 16px; line-height: 35px;}
+.bottomHeader p span{color:#FFF;}
 
 /*mainInfo*/
 .mainInfo{ width: 100%; padding-top: 25px; padding-bottom: 25px; background:url(../images/background-maininfo.jpg) no-repeat right bottom; background-size:contain; height: 600px; margin-top: 40px; margin-bottom: 40px;}
-h1{ text-align: left; font-size: 50px; color: #46ade8; }
-h2{ text-align: left; font-size: 50px; color: #213f50; }
-.margRight{margin-right: 20px; float:left;}
-.margLeft{margin-left: 20px; float: right;}
+.mainInfo h1{ text-align: left; font-size: 50px; color: #46ade8; line-height: 60px;}
+.mainInfo h2{ text-align: left; font-size: 50px; color: #213f50; line-height: 60px;}
+.mainInfo p{ text-align: left; font-size: 18px; color: #353535; font-size: 16px; line-height: 30px;}
+.qouteLeftImg{margin-right: 20px; float: left; margin-bottom: 25px;}
+.qouteRightImg{margin-left: 20px; float: right; margin-top: 25px; margin-bottom: 25px;}
 
-.testimonialWrapper{ padding: 20px; float: left; margin-bottom: 20px; margin-top: 20px; border: 5px #46ade8 solid;}
-.testImg{ float: left; margin-right: 20px;}
-.testText{text-align: left; font-size: 18px; color: #353535;} 
+/*Testimonial*/
+.testimonialWrapper{ padding: 20px; float: left; margin-bottom: 25px; margin-top: 25px; border: 5px #46ade8 solid;}
+.testImg{ float: left; margin-right: 20px; margin-top: 10px;}
+.testimonial h1{ text-align: left; font-size: 50px; color: #46ade8; line-height: 60px;}
+.testimonial p{ text-align: left; color: #353535; font-size: 15px; line-height: 30px;} 
+
+/*Middle*/
+.middle{ width: 100%; padding-top: 50px; padding-bottom: 50px; background: #213f50; margin-top: 25px; margin-bottom: 25px;}
+.middle h1{ text-align: center; font-size: 50px; color: #FFF; line-height: 60px;}
+.middle h1 span{ font-size: 60px;}
+.middleImg{ margin-top: 30px;}
+.middle h2{ text-align: center; font-size: 40px; color: #46ade8; line-height: 90px;}
+.middle p{text-align: center; color:#FFF; font-size: 18px; padding-bottom: 10px;}
+
+/*Items*/
+.items{ width: 100%;}
+.itemWrapper{ background: #46ade8; margin-top: 25px; margin-bottom: 25px; padding: 0!important;}
+.items h1{ text-align: left; color:#FFF; font-size: 50px; margin-left: 20px; margin-top: 30px;}
+.items h2{ text-align: left; color:#FFF; font-size: 50px; margin-left: 20px; font-size: 60px;}
+.items h3{ text-align: left; font-size: 25px; color: #353535; margin-left: 20px; margin-top: 15px; margin-bottom: 30px;}
+.items p{ text-align: left; color:#FFF; font-size: 18px; padding-bottom: 10px; line-height: 30px;}
 
 /*Footer*/ 
-.footer{ width: 100%; padding-top: 50px; padding-bottom: 100px; background: #213f50;}
-p.footer{ text-align: center;}
+.footer{ width: 100%; padding-top: 25px; padding-bottom: 25px; background: #213f50; margin-top: 25px;}
+.footer h1{ text-align: right; font-size: 25px; color: #FFF;}
+.footer p{ text-align: right; font-size: 20px; color:#56ade8; font-style: normal;}
+.contactImg{ margin-right: 10px;}
 
 
 
@@ -76,18 +100,30 @@ img.hideFull{display: none;}
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
 	
-	.testImage{ text-align: center; padding-bottom: 20px;}
+	.topHeader h1{ text-align: center; font-size: 25px; margin-top: 30px;}
+    .topHeader p{ text-align: center; font-size: 20px; font-style: normal;}
 	
-	.testimonial{ text-align: center; }
+	.arrowUp{display: none;}
+    .arrowDown{display: none;}
 	
-	.benefitList li{display: block; width: 50%; float: left;}
+	.bottomHeader{ width: 100%; background: #46ade8;}
+    .bottomHeader h1{ text-align: center; font-size: 32px; line-height: 50px; margin-bottom: 20px; padding-top: 25px;}
+    .bottomHeader p{ text-align: center; line-height: 20px; margin-bottom: 50px;}
+    .bottomHeader p span{color:#FFF;}
+
+	
+	.testImg{ text-align: center; padding-bottom: 20px; float:none;}
+	.testimonialWrapper{ text-align: center; }
+	.testimonial p{text-align:center;}
+	
+	.mainInfo{ padding-top: 0px; padding-bottom: 0px; background: none; height: 100%; margin-top: 50px; margin-bottom: 50px;}
+	
+	
+	.footer h1{ text-align: center; font-size: 25px; margin-top: 30px;}
+    .footer p{ text-align: center; font-size: 20px; font-style: normal;}
 	
 	img.showFull{ display: none;}
 	img.hideFull{ display: block!important;}
-	
-	.sect1{ background: none;}
-	
-	
 	
 	
 	}
