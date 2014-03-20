@@ -1,5 +1,5 @@
 body {
-  background: #f2f2f2;
+  background: #f9f9f9;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -16,7 +16,8 @@ h5,h6,pre,form,p,blockquote,th,td {
   margin: 0;
   padding: 0;
   direction: ltr; }
-    
+
+
 .topRow{padding: 800px 0 0 0;}
 
 
@@ -68,6 +69,7 @@ em, i {font-style: italic;line-height: inherit; }
 strong, b {font-weight: bold;line-height: inherit; }
 
 
+.row{ max-width: 1024px;}
 
 /*Header Styles*/
 
