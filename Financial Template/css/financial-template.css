@@ -1,0 +1,116 @@
+
+body {background: url(../images/background-image.jpg) no-repeat center top; color: #222222;padding: 0;margin: 0;font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+font-weight: normal;font-style: normal;line-height: 1;cursor: default; }
+  
+/* Default Link Styles */
+a {color: #2ba6cb;text-decoration: none;line-height: inherit; }
+a:hover, a:focus {color: #2795b6; }
+a img {border: none; }
+/* Default paragraph styles */
+p {font-family: inherit;font-weight: normal; line-height: 1.6;margin-bottom: 1.25rem;text-rendering: optimizeLegibility; }
+p aside {font-size: 0.875rem;line-height: 1.35;font-style: italic; }
+
+/* Default header styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  font-style: normal;
+  color: #222222;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4; }
+  
+/*CUSTOM CODE HERE*/
+  
+/*change this to increase page width do not remove---*/
+.row{ max-width: 62.5em;}
+.rowNarrow{ max-width: 800px;}
+.rowWide{ max-width: 90%; background: #ccc;}
+
+img.callSide{ margin: 20px 0 0 0;}
+p.smallText{ font-size: 11px;}
+
+.fullWidth{ float:left; width: 100%;}
+
+/*Header*/
+.logo{ margin-top: 20px; float: left;}
+
+.topHeader{ width: 100%; padding-top: 25px; padding-bottom: 20px; background: #FFF;}
+.topHeader h1{ text-align: center; font-size: 30px; color: #374958; font-style: italic; margin-bottom: 15px;}
+.topHeader p{ text-align: center; font-size: 16px; color:#374958; font-style: normal;}
+.topHeader p span{ color:#01d6c9;}
+
+span.email{ background: url(../images/email-image.png) no-repeat 20px 0; padding: 0 0 0 50px; }
+span.phone{ background: url(../images/phone.png) no-repeat; padding: 0 0 0 18px; }
+
+/*Top Section*/
+.topSection{ background: url(../images/backgroundImg.jpg) no-repeat top; background-size: cover;}
+.section{ padding-top: 50px; padding-bottom: 50px; padding-right: 30px;}
+.section h1{ text-align: left; font-size: 55px; color: #FFF; font-style: normal; line-height: 60px;}
+.section h2{ text-align: left; font-size: 55px; color: #FFF; font-style: normal; line-height: 60px; margin-bottom: 30px;}
+.section p{ text-align: left; font-size: 27px; color: #374958; font-style: normal; line-height: 30px;}
+.section p span{ }
+
+.arrowWrapper{ background: #374958; color: #fff; width: 100%; float: left; padding: 20px; padding-right: 50px;}
+.arrowRight{ background: url(../images/arrow-right.png no-repeat right);}
+
+/*mainInfo*/
+.mainInfo{ width: 100%; padding-top: 50px; padding-bottom: 50px;}
+.mainInfo h1{ text-align: left; font-size: 50px; color: #01d6c9; line-height: 50px;}
+.mainInfo h2{ text-align: left; font-size: 50px; color: #01d6c9; line-height: 50px; margin-bottom: 50px;}
+.mainInfo p{ text-align: left; font-size: 16px; color: #374958; line-height: 25px; margin-bottom: 0.85em;}
+.qouteLeftImg{margin-right: 20px; float: left; margin-bottom: 25px;}
+.qouteRightImg{margin-left: 20px; float: right; margin-top: 25px; margin-bottom: 25px;}
+
+/*partnersSection*/
+.partnerSection{ width: 100%;}
+.partnersSection h1{ text-align: center; color: #01d6c9; font-size: 30px; line-height: 30px; margin-bottom: 25px;}
+.partnerImg{ float: left; margin: 25px 35px;}
+
+/*Testimonial*/
+.testimonial{ background: #374958; margin-top: 25px;}
+.testimonialWrapper{ padding: 50px 30px;}
+.testImg{ float: left;}
+.testimonial h1{ text-align: left; font-size: 27px; color: #FFF; line-height: 40px;}
+.testimonial p{ text-align: right; color: #FFF; font-size: 16px; line-height: 30px; margin-top: 50px;}
+.testimonial p span{ color: #f8a81d;}  
+
+/*Footer*/ 
+.footer{ width: 100%; padding-top: 25px; padding-bottom: 20px; background: #01d6c9;}
+.footer h1{ text-align: center; font-size: 30px; color: #374958; font-style: italic; margin-bottom: 15px;}
+.footer p{ text-align: center; font-size: 16px; color:#374958; font-style: normal;}
+.footer p span{ color: #FFF;}
+
+/*Hidden Elements*/
+.hiddenFormWrapper{ background: #F00 !important;}
+
+.logoHidden{ display: none;}
+
+img.hideFull{display: none;} 
+
+.formWrapperInner{ background: #f00;}		
+	
+
+@media only screen and (max-width: 400px) {
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4; }
+	
+	.hiddenFormWrapper{ display: block; padding: 30px;}
+	
+	.logoWrapper{ display: none;}
+    .logo{ display: none;}
+	
+    .logoHidden{ display: block; margin: 0 auto; margin-bottom: 15px;}
+	
+	.formWrapper{ width: 90%; margin: 5%; padding: 30px; margin-top: 30px; margin-bottom: 30px;}
+    .formWrapper h1{ text-align: center;}
+    .formWrapper h2{ text-align: center;}
+    .formWrapper h3{ text-align: center;}
+    .formWrapper p{ text-align: center;}
+    .formWrapper p span{ text-align: center;}
+		
+	img.showFull{ display: none;}
+	img.hideFull{ display: block!important;}
+	
+	
+	}

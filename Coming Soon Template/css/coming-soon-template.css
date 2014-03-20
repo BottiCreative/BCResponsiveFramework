@@ -33,13 +33,14 @@ p.smallText{ font-size: 11px;}
 
 .fullWidth{ float:left; width: 100%;}
 
+/*Logo*/
 .logoWrapper{ background: #fff; position: absolute; top: 15%; -webkit-box-shadow: 0 0 20px 7px rgba(0,0,0,.2);
 box-shadow: 0 0 20px 7px rgba(0,0,0,.2);}
 .logo{ margin: 20px 40px 20px 40px;}
 
 /*Form*/
 .formWrapper{ background: #fff; margin-top: 10%; margin-bottom: 10%; -webkit-box-shadow: 0 0 20px 7px rgba(0,0,0,.2);
-box-shadow: 0 0 20px 7px rgba(0,0,0,.2); padding: 70px 30px 30px 30px; float: left;}
+box-shadow: 0 0 20px 7px rgba(0,0,0,.2); padding: 60px 30px 30px 30px; float: right; width: 82%;}
 .formWrapper h1{ font-size: 50px; color: #737373;}
 .formWrapper h2{ font-size: 90px; color: #4bb8b8; line-height: 50px;}
 .formWrapper h3{ font-size: 30px; color: #737373; line-height: 100px;}
@@ -47,23 +48,47 @@ box-shadow: 0 0 20px 7px rgba(0,0,0,.2); padding: 70px 30px 30px 30px; float: le
 .formWrapper p span{ font-size: 15px; color: #4bb8b8;}
 
 /*Icons*/
-.fbIcon{ background: url(../images/fb-icon.png) no-repeat;}
-.twitIcon{ background: url(../images/twit-icon.png) no-repeat;}
-.inIcon{ background: url(../images/in-icon.png) no-repeat;}
-.instIcon{ background: url(../images/inst-icon.png) no-repeat;}
+.iconsWrapper{ padding: 20px; text-align:center; margin-bottom: 30px;}
+.facebookButton{ display: block; background: url(../images/fb-icon.png) no-repeat center; height: 18px; width: 18px; margin-right: 15px; float: left;}
+.twitterButton{ display: block; background: url(../images/twit-icon.png) no-repeat center; height: 18px; width: 18px; margin-right: 15px; margin-left: 15px; float: left;}
+.linkedinButton{ display: block; background: url(../images/in-icon.png) no-repeat center; height: 18px; width: 18px; margin-right: 15px; margin-left: 15px; float: left;}
+.instagramButton{ display: block; background: url(../images/inst-icon.png) no-repeat center; height: 18px; width: 18px; margin-left: 15px; float: left;}
+
+.facebookButton:hover{ background: url(../images/fb-icon-hover.png) no-repeat;}
+.twitterButton:hover{ background: url(../images/twit-icon-hover.png) no-repeat;}
+.linkedinButton:hover{ background: url(../images/in-icon-hover.png) no-repeat;}
+.instagramButton:hover{ background: url(../images/inst-icon-hover.png) no-repeat;}
 
 span.phone{ background: url(../images/phone.png) no-repeat; padding: 0 0 0 18px; }
 span.email{ background: url(../images/email-image.png) no-repeat 20px 0; padding: 0 0 0 50px; }
 
+/*Hidden Elements*/
+.hiddenFormWrapper{ background: #F00 !important;}
 
-img.hideFull{display: none;} 		
+.logoHidden{ display: none;}
+
+img.hideFull{display: none;} 
+
+.formWrapperInner{ background: #f00;}		
 	
 
 @media only screen and (max-width: 400px) {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
 	
+	.hiddenFormWrapper{ display: block; padding: 30px;}
 	
+	.logoWrapper{ display: none;}
+    .logo{ display: none;}
+	
+    .logoHidden{ display: block; margin: 0 auto; margin-bottom: 15px;}
+	
+	.formWrapper{ width: 90%; margin: 5%; padding: 30px; margin-top: 30px; margin-bottom: 30px;}
+    .formWrapper h1{ text-align: center;}
+    .formWrapper h2{ text-align: center;}
+    .formWrapper h3{ text-align: center;}
+    .formWrapper p{ text-align: center;}
+    .formWrapper p span{ text-align: center;}
 		
 	img.showFull{ display: none;}
 	img.hideFull{ display: block!important;}

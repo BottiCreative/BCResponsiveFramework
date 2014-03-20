@@ -1,0 +1,28 @@
+
+
+.TopForm{ padding: 50px; color: #fff; width: 100%; float: right; background: #374958;}
+.TopForm h1{color: #01d6c9; font-size: 30px; line-height: 30px;}
+.TopForm h2{color: #fff; font-size: 45px;}
+.TopForm h2 span{color: #01d6c9;}
+.TopForm p{color: #FFF; padding-bottom: 20px; padding-top: 20px; font-size: 16px;}
+
+
+/*FORM BUTTONS*/
+
+
+.FormButt{ border-radius: 10px; background: #f8a81d; repeat-x center; font-size: 45px; width: 100%; text-align: center; height: 70px; border: none; color: #fff; cursor: pointer; -webkit-transition: all .2s ease-in-out; margin: 10px 0 0 0;
+ -moz-transition: all .2s ease-in-out;
+ -ms-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+ transition: all .2s ease-in-out;} 
+
+.FormButt:hover{ background: #01d6c9;}
+
+.watermark{ background: #fff; border-width: 3px; border-color: #01d6c9; border-radius: 10px; margin: 20px 0; float: left; height: 50px; width: 100%; padding: 0 0 0 20px; font-size: 15px;}
+
+
+@media only screen and (max-width: 400px) {
+
+
+
+}

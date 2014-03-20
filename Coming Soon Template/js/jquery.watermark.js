@@ -1,7 +1,7 @@
 (function($){  
 	$.fn.watermark = function() {  
 		var defaults = {  
-			color: '#fff'
+			color: '#737373'
 		};       
 	   var options = $.extend(defaults, options);  
 		return this.each(function() {  
